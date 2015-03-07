@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC450D891AAB092000BF87F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC450D881AAB092000BF87F1 /* Foundation.framework */; };
+		BC450D8B1AAB092000BF87F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC450D8A1AAB092000BF87F1 /* CoreGraphics.framework */; };
+		BC450D8D1AAB092000BF87F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC450D8C1AAB092000BF87F1 /* UIKit.framework */; };
+		BC450D931AAB092000BF87F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC450D911AAB092000BF87F1 /* InfoPlist.strings */; };
+		BC450D951AAB092000BF87F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC450D941AAB092000BF87F1 /* main.m */; };
+		BC450D991AAB092000BF87F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC450D981AAB092000BF87F1 /* AppDelegate.m */; };
+		BC450D9C1AAB092000BF87F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC450D9A1AAB092000BF87F1 /* Main.storyboard */; };
+		BC450D9F1AAB092000BF87F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC450D9E1AAB092000BF87F1 /* ViewController.m */; };
+		BC450DA11AAB092000BF87F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC450DA01AAB092000BF87F1 /* Images.xcassets */; };
+		BC450DA81AAB092000BF87F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC450DA71AAB092000BF87F1 /* XCTest.framework */; };
+		BC450DA91AAB092000BF87F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC450D881AAB092000BF87F1 /* Foundation.framework */; };
+		BC450DAA1AAB092000BF87F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC450D8C1AAB092000BF87F1 /* UIKit.framework */; };
+		BC450DB21AAB092000BF87F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC450DB01AAB092000BF87F1 /* InfoPlist.strings */; };
+		BC450DB41AAB092000BF87F1 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC450DB31AAB092000BF87F1 /* ___Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC450DAB1AAB092000BF87F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC450D7D1AAB092000BF87F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC450D841AAB092000BF87F1;
+			remoteInfo = "方法类";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC450D851AAB092000BF87F1 /* 方法类.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "方法类.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC450D881AAB092000BF87F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC450D8A1AAB092000BF87F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC450D8C1AAB092000BF87F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC450D901AAB092000BF87F1 /* 方法类-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "方法类-Info.plist"; sourceTree = "<group>"; };
+		BC450D921AAB092000BF87F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC450D941AAB092000BF87F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC450D961AAB092000BF87F1 /* 方法类-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "方法类-Prefix.pch"; sourceTree = "<group>"; };
+		BC450D971AAB092000BF87F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC450D981AAB092000BF87F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC450D9B1AAB092000BF87F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC450D9D1AAB092000BF87F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC450D9E1AAB092000BF87F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC450DA01AAB092000BF87F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC450DA61AAB092000BF87F1 /* 方法类Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "方法类Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC450DA71AAB092000BF87F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC450DAF1AAB092000BF87F1 /* 方法类Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "方法类Tests-Info.plist"; sourceTree = "<group>"; };
+		BC450DB11AAB092000BF87F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC450DB31AAB092000BF87F1 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC450D821AAB092000BF87F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC450D8B1AAB092000BF87F1 /* CoreGraphics.framework in Frameworks */,
+				BC450D8D1AAB092000BF87F1 /* UIKit.framework in Frameworks */,
+				BC450D891AAB092000BF87F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC450DA31AAB092000BF87F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC450DA81AAB092000BF87F1 /* XCTest.framework in Frameworks */,
+				BC450DAA1AAB092000BF87F1 /* UIKit.framework in Frameworks */,
+				BC450DA91AAB092000BF87F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC450D7C1AAB092000BF87F1 = {
+			isa = PBXGroup;
+			children = (
+				BC450D8E1AAB092000BF87F1 /* 方法类 */,
+				BC450DAD1AAB092000BF87F1 /* 方法类Tests */,
+				BC450D871AAB092000BF87F1 /* Frameworks */,
+				BC450D861AAB092000BF87F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC450D861AAB092000BF87F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC450D851AAB092000BF87F1 /* 方法类.app */,
+				BC450DA61AAB092000BF87F1 /* 方法类Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC450D871AAB092000BF87F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC450D881AAB092000BF87F1 /* Foundation.framework */,
+				BC450D8A1AAB092000BF87F1 /* CoreGraphics.framework */,
+				BC450D8C1AAB092000BF87F1 /* UIKit.framework */,
+				BC450DA71AAB092000BF87F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC450D8E1AAB092000BF87F1 /* 方法类 */ = {
+			isa = PBXGroup;
+			children = (
+				BC450D971AAB092000BF87F1 /* AppDelegate.h */,
+				BC450D981AAB092000BF87F1 /* AppDelegate.m */,
+				BC450D9A1AAB092000BF87F1 /* Main.storyboard */,
+				BC450D9D1AAB092000BF87F1 /* ViewController.h */,
+				BC450D9E1AAB092000BF87F1 /* ViewController.m */,
+				BC450DA01AAB092000BF87F1 /* Images.xcassets */,
+				BC450D8F1AAB092000BF87F1 /* Supporting Files */,
+			);
+			path = "方法类";
+			sourceTree = "<group>";
+		};
+		BC450D8F1AAB092000BF87F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC450D901AAB092000BF87F1 /* 方法类-Info.plist */,
+				BC450D911AAB092000BF87F1 /* InfoPlist.strings */,
+				BC450D941AAB092000BF87F1 /* main.m */,
+				BC450D961AAB092000BF87F1 /* 方法类-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC450DAD1AAB092000BF87F1 /* 方法类Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC450DB31AAB092000BF87F1 /* ___Tests.m */,
+				BC450DAE1AAB092000BF87F1 /* Supporting Files */,
+			);
+			path = "方法类Tests";
+			sourceTree = "<group>";
+		};
+		BC450DAE1AAB092000BF87F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC450DAF1AAB092000BF87F1 /* 方法类Tests-Info.plist */,
+				BC450DB01AAB092000BF87F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC450D841AAB092000BF87F1 /* 方法类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC450DB71AAB092000BF87F1 /* Build configuration list for PBXNativeTarget "方法类" */;
+			buildPhases = (
+				BC450D811AAB092000BF87F1 /* Sources */,
+				BC450D821AAB092000BF87F1 /* Frameworks */,
+				BC450D831AAB092000BF87F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "方法类";
+			productName = "方法类";
+			productReference = BC450D851AAB092000BF87F1 /* 方法类.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC450DA51AAB092000BF87F1 /* 方法类Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC450DBA1AAB092000BF87F1 /* Build configuration list for PBXNativeTarget "方法类Tests" */;
+			buildPhases = (
+				BC450DA21AAB092000BF87F1 /* Sources */,
+				BC450DA31AAB092000BF87F1 /* Frameworks */,
+				BC450DA41AAB092000BF87F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC450DAC1AAB092000BF87F1 /* PBXTargetDependency */,
+			);
+			name = "方法类Tests";
+			productName = "方法类Tests";
+			productReference = BC450DA61AAB092000BF87F1 /* 方法类Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC450D7D1AAB092000BF87F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "骆冬宇";
+				TargetAttributes = {
+					BC450DA51AAB092000BF87F1 = {
+						TestTargetID = BC450D841AAB092000BF87F1;
+					};
+				};
+			};
+			buildConfigurationList = BC450D801AAB092000BF87F1 /* Build configuration list for PBXProject "方法类" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC450D7C1AAB092000BF87F1;
+			productRefGroup = BC450D861AAB092000BF87F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC450D841AAB092000BF87F1 /* 方法类 */,
+				BC450DA51AAB092000BF87F1 /* 方法类Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC450D831AAB092000BF87F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC450DA11AAB092000BF87F1 /* Images.xcassets in Resources */,
+				BC450D931AAB092000BF87F1 /* InfoPlist.strings in Resources */,
+				BC450D9C1AAB092000BF87F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC450DA41AAB092000BF87F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC450DB21AAB092000BF87F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC450D811AAB092000BF87F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC450D9F1AAB092000BF87F1 /* ViewController.m in Sources */,
+				BC450D991AAB092000BF87F1 /* AppDelegate.m in Sources */,
+				BC450D951AAB092000BF87F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC450DA21AAB092000BF87F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC450DB41AAB092000BF87F1 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC450DAC1AAB092000BF87F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC450D841AAB092000BF87F1 /* 方法类 */;
+			targetProxy = BC450DAB1AAB092000BF87F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC450D911AAB092000BF87F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC450D921AAB092000BF87F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC450D9A1AAB092000BF87F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC450D9B1AAB092000BF87F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC450DB01AAB092000BF87F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC450DB11AAB092000BF87F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC450DB51AAB092000BF87F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC450DB61AAB092000BF87F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC450DB81AAB092000BF87F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "方法类/方法类-Prefix.pch";
+				INFOPLIST_FILE = "方法类/方法类-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC450DB91AAB092000BF87F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "方法类/方法类-Prefix.pch";
+				INFOPLIST_FILE = "方法类/方法类-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC450DBB1AAB092000BF87F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/方法类.app/方法类";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "方法类/方法类-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "方法类Tests/方法类Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC450DBC1AAB092000BF87F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/方法类.app/方法类";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "方法类/方法类-Prefix.pch";
+				INFOPLIST_FILE = "方法类Tests/方法类Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC450D801AAB092000BF87F1 /* Build configuration list for PBXProject "方法类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC450DB51AAB092000BF87F1 /* Debug */,
+				BC450DB61AAB092000BF87F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC450DB71AAB092000BF87F1 /* Build configuration list for PBXNativeTarget "方法类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC450DB81AAB092000BF87F1 /* Debug */,
+				BC450DB91AAB092000BF87F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC450DBA1AAB092000BF87F1 /* Build configuration list for PBXNativeTarget "方法类Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC450DBB1AAB092000BF87F1 /* Debug */,
+				BC450DBC1AAB092000BF87F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC450D7D1AAB092000BF87F1 /* Project object */;
+}
