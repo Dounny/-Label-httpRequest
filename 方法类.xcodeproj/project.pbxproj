@@ -21,6 +21,8 @@
 		BC450DAA1AAB092000BF87F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC450D8C1AAB092000BF87F1 /* UIKit.framework */; };
 		BC450DB21AAB092000BF87F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC450DB01AAB092000BF87F1 /* InfoPlist.strings */; };
 		BC450DB41AAB092000BF87F1 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC450DB31AAB092000BF87F1 /* ___Tests.m */; };
+		BC450DBF1AAB094F00BF87F1 /* ZKHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC450DBE1AAB094F00BF87F1 /* ZKHttpRequest.m */; };
+		BC450DC21AAB096900BF87F1 /* Method.m in Sources */ = {isa = PBXBuildFile; fileRef = BC450DC11AAB096900BF87F1 /* Method.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		BC450DAF1AAB092000BF87F1 /* 方法类Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "方法类Tests-Info.plist"; sourceTree = "<group>"; };
 		BC450DB11AAB092000BF87F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC450DB31AAB092000BF87F1 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		BC450DBD1AAB094F00BF87F1 /* ZKHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKHttpRequest.h; sourceTree = "<group>"; };
+		BC450DBE1AAB094F00BF87F1 /* ZKHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKHttpRequest.m; sourceTree = "<group>"; };
+		BC450DC01AAB096900BF87F1 /* Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Method.h; sourceTree = "<group>"; };
+		BC450DC11AAB096900BF87F1 /* Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Method.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				BC450D9A1AAB092000BF87F1 /* Main.storyboard */,
 				BC450D9D1AAB092000BF87F1 /* ViewController.h */,
 				BC450D9E1AAB092000BF87F1 /* ViewController.m */,
+				BC450DBD1AAB094F00BF87F1 /* ZKHttpRequest.h */,
+				BC450DBE1AAB094F00BF87F1 /* ZKHttpRequest.m */,
+				BC450DC01AAB096900BF87F1 /* Method.h */,
+				BC450DC11AAB096900BF87F1 /* Method.m */,
 				BC450DA01AAB092000BF87F1 /* Images.xcassets */,
 				BC450D8F1AAB092000BF87F1 /* Supporting Files */,
 			);
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC450DBF1AAB094F00BF87F1 /* ZKHttpRequest.m in Sources */,
 				BC450D9F1AAB092000BF87F1 /* ViewController.m in Sources */,
+				BC450DC21AAB096900BF87F1 /* Method.m in Sources */,
 				BC450D991AAB092000BF87F1 /* AppDelegate.m in Sources */,
 				BC450D951AAB092000BF87F1 /* main.m in Sources */,
 			);
